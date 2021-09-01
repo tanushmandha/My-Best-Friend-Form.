@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Friends Application Form </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div>
+            <h1>Best Friends Application</h1>
+            <img src="https://i1.faceprep.in/ProGrad/hello-minion.png" alt="hello-minion">
+            <p>
+                Hey there! I need a new best friend... because the last one escaped : )
+                Not my fault though, I'm a moody,but supper cool!
+            </p>
+            <h3>
+                Wanna be Friends 
+            </h3>
+        </div>
+        <form action="mailto:tanush.02mj07@gmail.com?Subject= My Best Friend Application" method="POST" enctype="text/plain">
+            <label for="name">What's ur name?</label>
+            <input type="text" name="name" id="name" placeholder="Tanush.M">
+            <label for="">What do u want me to call u as?</label>
+
+            <input type="text" name="Nickname" id="Nickname" placeholder="Jhoney">
+            <label for="">What's ur age?</label>
+
+            <input type="number" name="age" id="age" min="12" max="18">
+
+            <label for="Anima">What is ur favourite Anima Character?</label>
+            <br>
+            <input type="checkbox" name="Naruto" id="Naruto">
+            <label for="Naruto">Naruto</label>
+            <input type="checkbox" name="Sasuka" id="Sasuka">
+            <label for="Sasuka">Sasuka</label>
+            <input type="checkbox" name="Kakashi" id="Kakashi">
+            <label for="Kakashi">Kakashi</label>
+            <br>
+            <label for="why">Why do u want to be friends with me?</label>
+            <textarea name="why" id="why" cols="30" rows="3">I want to be friend with u because...</textarea>
+            <input type="submit" value="LET'S BE FRIENDS">
+          </form>
+    </section>
+</body>
+</html>
